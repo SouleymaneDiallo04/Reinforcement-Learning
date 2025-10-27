@@ -1,4 +1,4 @@
-## **Deep Q-Learning pour GridWorld avec Objectifs Changeants**
+## **Deep Q-Learning pour GridWorld avec Goals Changeants**
 
 
 
@@ -10,7 +10,7 @@ Ce projet implémente le Deep Q-Network (DQN) et ses variantes pour résoudre un
 
 
 
-###### **Structure du Projet**
+#### **Structure du Projet**
 
 
 
@@ -52,7 +52,7 @@ gridworld_dqn/
 
 
 
-###### **Fonctionnalités Principales**
+#### **Fonctionnalités Principales**
 
 
 
@@ -82,19 +82,19 @@ gridworld_dqn/
 
 ***Architecture du Réseau de Neurones***
 
-\- \*\*Couche d'Entrée\*\* : 4 neurones (positions de l'agent et de l'objectif)
+\- **Couche d'Entrée** : 4 neurones (positions de l'agent et de l'objectif)
 
-\- \*\*Couches Cachées\*\* : 2 couches fully connected avec activation ReLU (64 neurones chacune)
+\- **Couches Cachées** : 2 couches fully connected avec activation ReLU (64 neurones chacune)
 
-\- \*\*Couche de Sortie\*\* : 4 neurones (Q-values pour chaque action : haut, bas, gauche, droite)
+\- **Couche de Sortie** : 4 neurones (Q-values pour chaque action : haut, bas, gauche, droite)
 
-\- \*\*Fonction de Coût\*\* : Mean Squared Error (MSE)
+\- **Fonction de Coût** : Mean Squared Error (MSE)
 
-\- \*\*Optimiseur\*\* : Adam
+\- **Optimiseur** : Adam
 
 
 
-###### **Dépendances**
+#### **Dépendances**
 
 
 
@@ -108,7 +108,7 @@ gridworld_dqn/
 
 
 
-###### **Utilisation**
+#### **Utilisation**
 
 
 
@@ -179,22 +179,14 @@ L'état est représenté comme un vecteur de quatre entiers : \[agent\_x, agent\
 ```python
 
 class DQN(nn.Module):
-
-&nbsp;   def \_\_init\_\_(self, input\_size, output\_size, hidden\_size=64):
-
-&nbsp;       self.network = nn.Sequential(
-
-&nbsp;           nn.Linear(input\_size, hidden\_size),
-
-&nbsp;           nn.ReLU(),
-
-&nbsp;           nn.Linear(hidden\_size, hidden\_size),
-
-&nbsp;           nn.ReLU(),
-
-&nbsp;           nn.Linear(hidden\_size, output\_size)
-
-&nbsp;       )
+    def __init__(self, input_size, output_size, hidden_size=64):
+        self.network = nn.Sequential(
+            nn.Linear(input_size, hidden_size),
+            nn.ReLU(),
+            nn.Linear(hidden_size, hidden_size),
+            nn.ReLU(),
+            nn.Linear(hidden_size, output_size)
+        )
 
 ```
 
@@ -220,7 +212,7 @@ Pour l'agent sans experience replay, l'apprentissage se fait immédiatement apr�
 
 
 
-###### **Fichiers de Sortie**
+#### **Fichiers de Sortie**
 
 
 
@@ -236,9 +228,9 @@ Pour l'agent sans experience replay, l'apprentissage se fait immédiatement apr�
 
 ***2. Points de Contrôle des Modèles :***
 
-&nbsp;  - `models/dqn\_simple.pth` : DQN sans experience replay
+&nbsp;  - `models/dqn_simple.pth` : DQN sans experience replay
 
-&nbsp;  - `models/dqn\_replay.pth` : DQN avec experience replay
+&nbsp;  - `models/dqn_replay.pth` : DQN avec experience replay
 
 
 
@@ -322,7 +314,7 @@ Dans nos expériences, les deux agents ont atteint des performances finales simi
 
 
 
-###### **Personnalisation**
+#### **Personnalisation**
 
 
 
@@ -346,7 +338,7 @@ Changez la taille de la grille, les récompenses ou la dynamique dans `environme
 
 
 
-###### **Conclusion**
+#### **Conclusion**
 
 
 

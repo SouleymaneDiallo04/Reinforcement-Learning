@@ -16,13 +16,13 @@ Ce projet implémente le Deep Q-Network (DQN) et ses variantes pour résoudre un
 
 ```
 
-gridworld\_dqn/
+gridworld_dqn/
 
 ├── agents/
 
-│   ├── base\_agent.py              # Classe de base abstraite pour les agents
+│   ├── base_agent.py              # Classe de base abstraite pour les agents
 
-│   └── dqn\_agent.py               # Implémentation de l'agent DQN
+│   └── dqn_agent.py               # Implémentation de l'agent DQN
 
 ├── environments/
 

@@ -1,8 +1,8 @@
-#### **Deep Q-Learning pour GridWorld avec Objectifs Changeants**
+## **Deep Q-Learning pour GridWorld avec Objectifs Changeants**
 
 
 
-##### **Aperçu du Projet**
+### **Aperçu du Projet**
 
 
 

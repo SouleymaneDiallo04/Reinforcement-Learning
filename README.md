@@ -1,9 +1,9 @@
 
 Ce dépôt regroupe deux projets complémentaires en apprentissage par renforcement, allant des méthodes classiques aux approches deep learning modernes.
 
-## 📁 Structure du Dépôt
+##  Structure du Dépôt
 
-### 1. 🎯 **RL Framework** - Algorithmes Classiques
+### 1.  **RL Framework** - Algorithmes Classiques
 *Dossier : `rl_framework/`*
 
 Un framework complet implémentant les algorithmes fondamentaux du RL sur un environnement GridWorld statique.
@@ -22,7 +22,7 @@ rl_framework/
     └── 📄 q_learning_agent.py          # Q-Learning (TD)
 ```
 
-### 2. 🚀 **Deep Q-Network** - Approche Deep Learning  
+### 2.  **Deep Q-Network** - Approche Deep Learning  
 *Dossier : `gridworld_dqn/`*
 
 Implémentation de DQN et variantes pour un environnement GridWorld dynamique avec objectifs changeants.
@@ -50,11 +50,11 @@ gridworld_dqn/
 
 | Agent | Algorithme | Type | Description |
 |-------|------------|------|-------------|
-| 🔀 Random Agent | Aléatoire | Baseline | Mouvements uniformément aléatoires |
-| 🧭 Policy Iteration | Programmation Dynamique | On-policy | Évaluation/amélioration itérative |
-| 📊 Value Iteration | Programmation Dynamique | Model-based | Convergence vers la fonction valeur optimale |
-| 🎲 Monte Carlo | First-Visit MC | Model-free | Apprentissage par épisodes complets |
-| ⚡ Q-Learning | TD Learning | Off-policy | Mise à jour incrémentale des Q-values |
+|  Random Agent | Aléatoire | Baseline | Mouvements uniformément aléatoires |
+|  Policy Iteration | Programmation Dynamique | On-policy | Évaluation/amélioration itérative |
+|  Value Iteration | Programmation Dynamique | Model-based | Convergence vers la fonction valeur optimale |
+|  Monte Carlo | First-Visit MC | Model-free | Apprentissage par épisodes complets |
+|  Q-Learning | TD Learning | Off-policy | Mise à jour incrémentale des Q-values |
 
 ### 🔹 Approches Deep Learning (gridworld_dqn)
 
@@ -63,7 +63,7 @@ gridworld_dqn/
 | **Deep Q-Network (DQN)** | Approximation des Q-values par réseau neuronal | ✅ Supporté |
 | **Dueling DQN** | Séparation valeur/avantage | ✅ Supporté |
 
-## 🎮 Environnements
+##  Environnements
 
 ### GridWorld Statique (rl_framework)
 - **Taille** : 4x4 grille fixe
@@ -77,7 +77,7 @@ gridworld_dqn/
 - **Objectif** : Position changeante à chaque épisode
 - **Récompenses** : +10 (succès), -0.1 (par pas)
 
-## 🚀 Utilisation Rapide
+##  Utilisation Rapide
 
 ### Pour les algorithmes classiques :
 ```bash
@@ -92,7 +92,7 @@ python scripts/train.py
 python scripts/test.py
 ```
 
-## 📊 Objectifs Pédagogiques
+##  Objectifs Pédagogiques
 
 Ce portfolio couvre l'évolution des méthodes RL :
 - **Programmation Dynamique** : Méthodes model-based (Value/Policy Iteration)
@@ -100,7 +100,7 @@ Ce portfolio couvre l'évolution des méthodes RL :
 - **Apprentissage TD** : Combinaison bootstrap/sampling (Q-Learning)
 - **Deep RL** : Approximation de fonctions avec réseaux neuronaux (DQN)
 
-## 📦 Dépendances
+##  Dépendances
 
 ### RL Framework :
 - Python 3.7+

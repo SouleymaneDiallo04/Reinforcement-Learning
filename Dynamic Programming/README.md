@@ -30,7 +30,6 @@ python main.py
 
 ```
    Méthode 2 : Ligne de commande directe
-
 ```
 ### Comparaison complète (500 épisodes)
 python main.py
@@ -38,5 +37,6 @@ python main.py
 ### Test spécifique d'un agent
 python -c "
 from main import compare_agents
+
 compare_agents(episodes=200)
 "

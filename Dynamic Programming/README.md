@@ -1,9 +1,9 @@
-Structure du projet : 
+## Structure du projet : 
 rl_framework/
 │
-├── 📄 grid_env.py              # Environnement de grille 4x4
-├── 📄 main.py                  # Programme principal
-├── 📄 utils.py                 # Fonctions utilitaires
+├── 📄 grid_env.py                             # Environnement de grille 4x4
+├── 📄 main.py                                  # Programme principal
+├── 📄 utils.py                             # Fonctions utilitaires
 │
 └── 📂 agents/                  # Dossier des agents RL
     ├── 📄 __init__.py

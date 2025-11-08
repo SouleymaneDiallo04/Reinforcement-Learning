@@ -1,4 +1,7 @@
 ## Structure du projet : 
+
+```
+
 rl_framework/
 │
 ├── 📄 grid_env.py                             # Environnement de grille 4x4
@@ -13,6 +16,7 @@ rl_framework/
     ├── 📄 monte_carlo_agent.py         # Monte Carlo
     └── 📄 q_learning_agent.py          # Q-Learning
 
+```
     Méthode 1 : Menu interactif (Recommandée)
 
 python main.py
@@ -24,10 +28,10 @@ python main.py
 
    Méthode 2 : Ligne de commande directe
 
-# Comparaison complète (500 épisodes)
+### Comparaison complète (500 épisodes)
 python main.py
 
-# Test spécifique d'un agent
+### Test spécifique d'un agent
 python -c "
 from main import compare_agents
 compare_agents(episodes=200)

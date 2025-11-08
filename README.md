@@ -10,16 +10,16 @@ Un framework complet implémentant les algorithmes fondamentaux du RL sur un env
 
 ```
 rl_framework/
-├── 📄 grid_env.py              # Environnement de grille 4x4 standard
-├── 📄 main.py                  # Programme principal de comparaison
-├── 📄 utils.py                 # Visualisation et métriques
+├──  grid_env.py              # Environnement de grille 4x4 standard
+├──  main.py                  # Programme principal de comparaison
+├──  utils.py                 # Visualisation et métriques
 │
-└── 📂 agents/                  # Collection d'agents RL
-    ├── 📄 random_agent.py              # Agent aléatoire (baseline)
-    ├── 📄 value_iteration_agent.py     # Value Iteration (DP)
-    ├── 📄 policy_iteration_agent.py    # Policy Iteration (DP)
-    ├── 📄 monte_carlo_agent.py         # Monte Carlo
-    └── 📄 q_learning_agent.py          # Q-Learning (TD)
+└──  agents/                  # Collection d'agents RL
+    ├──  random_agent.py              # Agent aléatoire (baseline)
+    ├──  value_iteration_agent.py     # Value Iteration (DP)
+    ├──  policy_iteration_agent.py    # Policy Iteration (DP)
+    ├──  monte_carlo_agent.py         # Monte Carlo
+    └──  q_learning_agent.py          # Q-Learning (TD)
 ```
 
 ### 2.  **Deep Q-Network** - Approche Deep Learning  
@@ -44,9 +44,9 @@ gridworld_dqn/
     └── visualization.py           # Visualisation
 ```
 
-## 🤖 Algorithmes Implémentés
+##  Algorithmes Implémentés
 
-### 🔹 Méthodes Classiques (rl_framework)
+###  Méthodes Classiques (rl_framework)
 
 | Agent | Algorithme | Type | Description |
 |-------|------------|------|-------------|
@@ -56,7 +56,7 @@ gridworld_dqn/
 |  Monte Carlo | First-Visit MC | Model-free | Apprentissage par épisodes complets |
 |  Q-Learning | TD Learning | Off-policy | Mise à jour incrémentale des Q-values |
 
-### 🔹 Approches Deep Learning (gridworld_dqn)
+###  Approches Deep Learning (gridworld_dqn)
 
 | Algorithme | Description | Expérience Replay |
 |------------|-------------|-------------------|

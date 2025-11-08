@@ -37,5 +37,6 @@ python main.py
 ### Test spécifique d'un agent
 python -c " 
 from main import compare_agents 
+
 compare_agents(episodes=200)
 "

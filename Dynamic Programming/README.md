@@ -24,11 +24,11 @@ rl_framework/
 
 | Agent | Description |
 |-------|-------------|
-| 🔀 Random Agent | Se déplace de façon aléatoire dans le GridWorld, utilisé comme baseline |
-| 🧭 Policy Iteration Agent | Apprend une politique optimale via évaluation et amélioration successives |
-| 📊 Value Iteration Agent | Calcule la fonction de valeur optimale jusqu'à convergence |
-| 🎲 Monte Carlo Agent | Estime les valeurs à partir d'épisodes complets |
-| ⚡ Q-Learning Agent | Apprentissage hors-policy par mise à jour incrémentale des Q-valeurs |
+|  Random Agent | Se déplace de façon aléatoire dans le GridWorld, utilisé comme baseline |
+|  Policy Iteration Agent | Apprend une politique optimale via évaluation et amélioration successives |
+|  Value Iteration Agent | Calcule la fonction de valeur optimale jusqu'à convergence |
+|  Monte Carlo Agent | Estime les valeurs à partir d'épisodes complets |
+|  Q-Learning Agent | Apprentissage hors-policy par mise à jour incrémentale des Q-valeurs |
 
 *Tous les agents fonctionnent dans le même environnement GridWorld, permettant de comparer leurs performances et trajectoires.*
 

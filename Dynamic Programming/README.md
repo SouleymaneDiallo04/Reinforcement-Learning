@@ -6,17 +6,17 @@ Ce projet fournit un cadre pour l'implémentation et la comparaison de différen
 
 rl_framework/
 │
-├── 📄 grid_env.py                          # Environnement de grille 4x4
-├── 📄 main.py                              # Programme principal
-├── 📄 utils.py                             # Fonctions utilitaires
+├──  grid_env.py                          # Environnement de grille 4x4
+├──  main.py                              # Programme principal
+├──  utils.py                             # Fonctions utilitaires
 │
-└── 📂 agents/                  # Dossier des agents RL
-    ├── 📄 __init__.py
-    ├── 📄 random_agent.py              # Agent aléatoire (baseline)
-    ├── 📄 value_iteration_agent.py     # Value Iteration
-    ├── 📄 policy_iteration_agent.py    # Policy Iteration
-    ├── 📄 monte_carlo_agent.py         # Monte Carlo
-    └── 📄 q_learning_agent.py          # Q-Learning
+└──  agents/                  # Dossier des agents RL
+    ├──  __init__.py
+    ├──  random_agent.py              # Agent aléatoire (baseline)
+    ├──  value_iteration_agent.py     # Value Iteration
+    ├──  policy_iteration_agent.py    # Policy Iteration
+    ├──  monte_carlo_agent.py         # Monte Carlo
+    └──  q_learning_agent.py          # Q-Learning
 
 ```
 
